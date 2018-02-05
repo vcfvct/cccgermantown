@@ -1,0 +1,24 @@
+{
+  "name": "cccgermantown",
+  "version": "1.0.0",
+  "description": "cccgermantown static site",
+  "main": "index.js",
+  "author": "Han Li",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.178",
+    "gatsby-link": "^1.6.36",
+    "gatsby-plugin-typescript": "^1.4.15"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.0",
+    "@types/react": "^16.0.36",
+    "@types/react-dom": "^16.0.3",
+    "typescript": "^2.7.1"
+  }
+}
