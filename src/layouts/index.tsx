@@ -24,9 +24,19 @@ const Header = () => (
           style={{
             color: 'white',
             textDecoration: 'none',
+            marginRight: '10px'
           }}
         >
           Home
+        </Link>
+        <Link
+          to="/about"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          About
         </Link>
       </div>
     </div>
