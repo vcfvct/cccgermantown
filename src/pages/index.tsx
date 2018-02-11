@@ -19,7 +19,7 @@ export default class extends React.Component<IndexPageProps, {}> {
   public render() {
     return(
       <div>
-        <h1>Hello  CCCG!</h1>
+        <h1>Hello  CCCG</h1>
         <p>This site is named <strong>{this.props.data.site.siteMetadata.siteName}</strong></p>
       </div>
     );
