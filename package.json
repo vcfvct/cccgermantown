@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
     "gatsby": "^1.9.178",
     "gatsby-link": "^1.6.36",
     "gatsby-plugin-react-helmet": "^2.0.4",

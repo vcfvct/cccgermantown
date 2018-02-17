@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Container } from 'reactstrap';
 
 interface PageProps{
     data:{
@@ -19,10 +20,10 @@ export default class extends React.Component<PageProps, {}> {
       content
     } = this.props.data.contentfulPage
     return (
-      <div>
+      <Container>
         <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{__html: content.content}} />
-      </div>
+      </Container>
     )
   }
 }
