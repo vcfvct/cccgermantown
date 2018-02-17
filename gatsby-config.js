@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     // Add typescript stack into webpack
     `gatsby-plugin-typescript`,
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-contentful',
       options: {

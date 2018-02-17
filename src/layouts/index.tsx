@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import ManiNav from './header'
 
 import 'bootstrap/dist/css/bootstrap.css'
+import '../styles/style.scss'
 interface DefaultLayoutProps extends React.HTMLProps<HTMLDivElement> {
   location: {
     pathname: string
@@ -21,7 +22,6 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
             { name: 'keywords', content: 'church, Chinese' },
           ]}
         />
-        {/* <Header /> */}
         <ManiNav />
         <div
           style={{

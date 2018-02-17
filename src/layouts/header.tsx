@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import { Container, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
-import './header.css'
+// import './header.scss'
 interface State {
   isOpen: boolean;
 }
@@ -59,7 +59,7 @@ export default class MainNav extends React.Component<{}, State> {
         <header className="site-header">
           <div className="container">
             <a href="#" className="branding">
-              <img src="images/logo-cccg.png" alt="" className="logo" />
+              <img src="https://s3.amazonaws.com/cccg-media/site-images/cccg-logo-72x385.png" alt="logo" className="logo" />
             </a>
 
             <div className="main-navigation">
