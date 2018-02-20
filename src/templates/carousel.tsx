@@ -73,7 +73,7 @@ class IndexCarousel extends React.Component<any, {activeIndex: number;}> {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} style={{width: '100%'}}/>
+          <img src={item.src} alt={item.altText} />
           <CarouselCaption captionText={item.altText} captionHeader={item.caption} />
         </CarouselItem>
       );
