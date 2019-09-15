@@ -39,7 +39,7 @@ ul.bullet{
 			&:hover{color: $accent-color}
 		}
   }
-  
+
 li::before {
   content: "• ";
   color: #dcc2a0; /* or whatever color you prefer */

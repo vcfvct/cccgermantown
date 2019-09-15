@@ -25,7 +25,7 @@ const items = [
   }
 ];
 
-class IndexCarousel extends React.Component<any, {activeIndex: number;}> {
+class IndexCarousel extends React.Component<any, { activeIndex: number; }> {
   animating: boolean = false
 
   constructor(props: any) {
@@ -73,7 +73,7 @@ class IndexCarousel extends React.Component<any, {activeIndex: number;}> {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} />
+          <img src={item.src} alt={item.altText} style={{ width: '100%' }} />
           <CarouselCaption captionText={item.altText} captionHeader={item.caption} />
         </CarouselItem>
       );

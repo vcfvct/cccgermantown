@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container } from 'reactstrap';
 import { graphql } from 'gatsby';
-import DefaultLayout from '../layouts';
+import MainLayout from '../components/layout';
 
 interface PageProps {
   data: {
@@ -22,12 +22,12 @@ export default class extends React.Component<PageProps, {}> {
       content
     } = this.props.data.contentfulPage
     return (
-      <DefaultLayout>
+      <MainLayout>
         <Container>
           <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: content.content }} />
         </Container>
-      </DefaultLayout>
+      </MainLayout>
     )
   }
 }
