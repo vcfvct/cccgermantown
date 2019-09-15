@@ -2,6 +2,8 @@ import * as React from "react";
 import IndexCarousel from '../templates/carousel'
 import { Container } from "reactstrap";
 import TopNews, { OneNews } from "../templates/top-news";
+import { graphql } from 'gatsby';
+import DefaultLayout from '../layouts';
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
 interface IndexPageProps {
@@ -36,7 +38,7 @@ export default class extends React.Component<IndexPageProps, {}> {
   }
   public render() {
     return (
-      <div>
+      <DefaultLayout>
         <IndexCarousel />
         <Container>
           <h1>Hello  CCCG</h1>
@@ -63,7 +65,7 @@ export default class extends React.Component<IndexPageProps, {}> {
 
 
         </Container>
-      </div>
+      </DefaultLayout>
     );
   }
 }

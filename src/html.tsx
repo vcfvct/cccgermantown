@@ -19,7 +19,7 @@ interface HtmlProps {
   headComponents: any;
 }
 
-class AppHtml extends React.Component<HtmlProps, void>{
+export default class AppHtml extends React.Component<HtmlProps, void>{
   render() {
     const css = (process.env.NODE_ENV === `production`) ?
       <style
@@ -54,4 +54,4 @@ class AppHtml extends React.Component<HtmlProps, void>{
 };
 
 // Use `module.exports` to be compliante with `webpack-require` import method
-module.exports = AppHtml;
+// module.exports = AppHtml;

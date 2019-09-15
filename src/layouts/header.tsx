@@ -1,7 +1,6 @@
-import React = require("react");
+import * as React from 'react';
 import Link from 'gatsby-link'
 import { Container, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
-import { NavLink } from "react-router-dom";
 
 // import './header.scss'
 interface State {
