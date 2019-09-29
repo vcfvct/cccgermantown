@@ -52,7 +52,7 @@ const Footer: React.FC = ({ children }) => (
         </div>
       </div>
 
-      <p className="colophon">Copyright 2018 Chinese Christian Church Germantown. All right reserved</p>
+      <p className="colophon">Copyright 2019 Chinese Christian Church Germantown. All right reserved.</p>
     </div>
   </footer>
 );
